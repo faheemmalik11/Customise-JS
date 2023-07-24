@@ -2,15 +2,15 @@
 We will have many Customise JS Functions which does not built in javascript.
 
 * [bind](#bind)
-* [mergeArray](#mergeArray)
+* [mergeArray](#merge-array)
 * [shorten](#shorten)
 * [shuffle](#shuffle)
 * [summary](#summary)
-* [isNumber](#isNumber)
-* [isString](#isString)
-* [isNull](#isNull)
-* [performanceCalculator](#performanceCalculator)
-* [delDuplicates](#delDuplicates)
+* [isNumber](#is-number)
+* [isStr](#is-str)
+* [isNull](#is-null)
+* [Performance Calculator](#performance-calculator)
+* [Delete Duplicates](#delete-duplicates)
 
 
 ## bind
@@ -38,8 +38,8 @@ isNull returns us a true or false value if the given parameter is a null or not.
 ## isStr
 isStr return us a true or false value if the given parameter is a string or not. We check this if the given parameter value is a typeOf string or not.
 
-## performanceCalculator
+## Performance Calculator
 performanceCalculator tells us about the total time taken by a program to execute. We calculate the strating time of program and ending. Then remove starting time from the ending time and we have total time.
 
-## delDuplicates
+## Delete Duplicates
 delDuplicates is used to remove duplicates from an array. We do this by making an array an object of set as sets do not have duplicate values.
