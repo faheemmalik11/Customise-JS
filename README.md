@@ -2,13 +2,13 @@
 We will have many Customise JS Functions which does not built in javascript.
 
 * [bind](#bind)
-* [mergeArray](#merge-array)
+* [Merge Array](#merge-array)
 * [shorten](#shorten)
 * [shuffle](#shuffle)
 * [summary](#summary)
-* [isNumber](#is-number)
-* [isStr](#is-str)
-* [isNull](#is-null)
+* [Is Number](#is-number)
+* [Is Str](#is-str)
+* [Is Null](#is-null)
 * [Performance Calculator](#performance-calculator)
 * [Delete Duplicates](#delete-duplicates)
 
@@ -17,7 +17,7 @@ We will have many Customise JS Functions which does not built in javascript.
 Bind function is used to copy the body of function to whom we bind. Like console.log is a function if we do console.log.bind, it will bind the body console.log to the variable we initialize to it. Bind accepts two arguments, both are optional, one is thisArg, which is an object or value we can refer to inside the function and the other are arguments that we can pass to the bind function.
 
 
-## mergeArray
+## Merge Array
 mergeArray is used to merge two arrays into one. A concat function is used to merge two arrays into one. Syntax is array1.concat(array2).
 
 ## shorten 
@@ -29,13 +29,13 @@ shuffle is used to shuffle the elements of an array, If you have an array you wa
 ## summary 
 summary is used to combine two objects into one. We do this by creating a new object and copying the two objects in it using ... i.e spread operator.
 
-## isNumber 
+## Is Number 
 isNumber returns us a true or false value if the the given parameter is a number or not. We just check if the parameter is a number by checking it is not Nan and not infinite.
 
-## isNull 
+## Is Null 
 isNull returns us a true or false value if the given parameter is a null or not. We check this if the given parameter value is not equal to null or undefined.
 
-## isStr
+## Is Str
 isStr return us a true or false value if the given parameter is a string or not. We check this if the given parameter value is a typeOf string or not.
 
 ## Performance Calculator
